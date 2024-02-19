@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarCast7/portfolio2.git"
+  },
+  "author": "Oscar Castañeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarCast7/portfolio2/issues"
+  },
+  "homepage": "https://github.com/OscarCast7/portfolio2#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}

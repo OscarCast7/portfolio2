@@ -22,7 +22,7 @@
     </header>
     <nav id="navbar" class="open">
         <div>
-            <a href="/">
+            <a href="#">
                 <img class="circle" src="./assets/img/logos/small.png" alt="small logo" />
                 <span>Oscar Castañeda <small>Web Developer</small></span>
             </a>
@@ -88,7 +88,7 @@
             <h3>Experience</h3>
             <hr />
             <div>
-                <a>
+                <a data-modal-id="myModal">
                     <img src="assets/img/experience/1.svg" alt="1st">
                     <h4>First Experience</h4>
                 </a>
@@ -124,8 +124,18 @@
     <footer>
         <small>Developed and designed by Oscar Castañeda. &copy;2023. All rights reserved.</small>
     </footer>
+    <div id="myModal" class="eins-modal">
+        <div class="eins-modal-content">
+          <div class="eins-modal-close"></div>
+      
+          Mi Primer Trabajo
+          
+          <button class="eins-modal-close-button">OK</button>
+        </div>
+      </div>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/fixed.js"></script>
+    <script src="node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
 </body>
 
 </html>
